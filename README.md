@@ -6,11 +6,12 @@ API for easy use of web3js Ethereum library.
    * Npm v5.6+
 
 ### Usage:
+`git clone` of this repo in your project directory
 
 ##### Get the ABI interface of the contract
 
 ````
-const abi = require ('./contract');
+const abi = require ('./easy-web3js/contract');
 
 getContractInterface(path_folder , name_of_contract);
 ````
