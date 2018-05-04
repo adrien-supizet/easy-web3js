@@ -1,0 +1,30 @@
+{
+  "name": "easy-web3",
+  "version": "0.0.0",
+  "description": "API for easy use of web3js Ethereum library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node contract.js",
+    "test": "mocha spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrien-supizet/easy-web3js.git"
+  },
+  "keywords": [
+    "web3js",
+    "javascript",
+    "ethereum"
+  ],
+  "author": "Adrien Supizet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrien-supizet/easy-web3js/issues"
+  },
+  "homepage": "https://github.com/adrien-supizet/easy-web3js#readme",
+  "dependencies": {
+    "mocha": "^5.1.1",
+    "recursive-readdir": "^2.2.2",
+    "web3": "0.20.6"
+  }
+}
