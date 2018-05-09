@@ -13,5 +13,5 @@ API for easy use of web3js Ethereum library.
 ````
 const abi = require ('./easy-web3js/contract');
 
-getContractInterface(path_folder , name_of_contract);
+abi.getContractInterface(path_folder , name_of_contract);
 ````
